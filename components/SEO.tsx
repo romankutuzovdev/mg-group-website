@@ -1,17 +1,18 @@
 import Head from 'next/head';
 import type { Dictionary } from '@/lib/dictionary';
-import { absoluteUrl, SITE_ORIGIN } from '@/lib/catalog';
+
+const SITE_ORIGIN = 'https://www.multiglobalgroup.com';
 
 interface SEOProps {
   dictionary: Dictionary;
   lang: string;
 }
 
-const SEO = ({ dictionary, lang }: SEOProps) => {
+const SEO = ({ dictionary }: SEOProps) => {
   const { metadata } = dictionary;
   const ogImage = metadata.ogImage.startsWith('http')
     ? metadata.ogImage
-    : absoluteUrl(metadata.ogImage);
+    : `${SITE_ORIGIN}${metadata.ogImage.startsWith('/') ? metadata.ogImage : `/${metadata.ogImage}`}`;
 
   return (
     <Head>
@@ -28,7 +29,7 @@ const SEO = ({ dictionary, lang }: SEOProps) => {
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
       <meta property="og:image:alt" content="MG GROUP" />
-      <meta property="og:url" content={SITE_ORIGIN + '/'} />
+      <meta property="og:url" content={`${SITE_ORIGIN}/`} />
       <meta property="og:site_name" content="MG GROUP" />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="ru_RU" />
@@ -39,7 +40,7 @@ const SEO = ({ dictionary, lang }: SEOProps) => {
       <meta name="twitter:description" content={metadata.description} />
       <meta name="twitter:image" content={ogImage} />
 
-      <link rel="canonical" href={SITE_ORIGIN + '/'} />
+      <link rel="canonical" href={`${SITE_ORIGIN}/`} />
 
       <link rel="preconnect" href="https://images.unsplash.com" />
       <link rel="icon" href="/favicon.ico" sizes="any" />
