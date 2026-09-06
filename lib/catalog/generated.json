@@ -1,0 +1,1925 @@
+{
+  "regions": {
+    "usa": {
+      "slug": "usa",
+      "name": "США",
+      "nameGenitive": "США",
+      "title": "Авто из США",
+      "h1": "Автомобили из США под заказ",
+      "description": "Подбор и доставка авто из США под ключ: Copart, IAAI, Manheim. Расчёт до Минска, таможенное оформление.",
+      "intro": "Выкупаем лоты на Copart и IAAI, считаем полную стоимость до Минска и ведём сделку до постановки на учёт."
+    },
+    "china": {
+      "slug": "china",
+      "name": "Китай",
+      "nameGenitive": "Китая",
+      "title": "Авто из Китая",
+      "h1": "Автомобили из Китая под заказ",
+      "description": "Подбор и доставка авто из Китая под ключ: BYD, Li Auto, Zeekr, Xiaomi и другие. Расчёт и таможенное оформление.",
+      "intro": "Новые и актуальные модели китайского рынка — подбор комплектации, логистика и растаможка под ключ."
+    },
+    "korea": {
+      "slug": "korea",
+      "name": "Корея",
+      "nameGenitive": "Кореи",
+      "title": "Авто из Кореи",
+      "h1": "Автомобили из Кореи под заказ",
+      "description": "Подбор и доставка авто из Кореи под ключ: Hyundai, Kia, Genesis и другие. Прозрачный расчёт до Минска.",
+      "intro": "Подбираем авто с корейского рынка с проверкой истории и полным сопровождением доставки."
+    },
+    "uk": {
+      "slug": "uk",
+      "name": "Англия",
+      "nameGenitive": "Англии",
+      "title": "Авто и машинокомплекты из Англии",
+      "h1": "Авто и машинокомплекты из Англии",
+      "description": "Лоты Copart UK и машинокомплекты из Англии: подбор, разборка, доставка в Беларусь.",
+      "intro": "Работаем с британскими площадками: целые авто и машинокомплекты с контролем разборки."
+    }
+  },
+  "makes": {
+    "aito": {
+      "slug": "aito",
+      "name": "AITO",
+      "logo": null,
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "m7",
+          "name": "M7",
+          "image": "/catalog/models/aito/m7.jpg"
+        },
+        {
+          "slug": "m9",
+          "name": "M9",
+          "image": "/catalog/models/aito/m9.jpg"
+        }
+      ]
+    },
+    "arcfox": {
+      "slug": "arcfox",
+      "name": "Arcfox",
+      "logo": "/catalog/makes/arcfox.png",
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "alpha-s5",
+          "name": "Alpha S5",
+          "image": "/catalog/models/arcfox/alpha-s5.jpg"
+        },
+        {
+          "slug": "alpha-t5",
+          "name": "Alpha T5",
+          "image": "/catalog/models/arcfox/alpha-t5.jpg"
+        },
+        {
+          "slug": "kaola-s",
+          "name": "Kaola S",
+          "image": "/catalog/models/arcfox/kaola-s.jpg"
+        },
+        {
+          "slug": "t1",
+          "name": "T1",
+          "image": "/catalog/models/arcfox/t1.jpg"
+        }
+      ]
+    },
+    "audi": {
+      "slug": "audi",
+      "name": "Audi",
+      "logo": "/catalog/makes/audi.png",
+      "regions": [
+        "usa",
+        "korea",
+        "uk"
+      ],
+      "models": [
+        {
+          "slug": "a5",
+          "name": "A5",
+          "image": "/catalog/models/audi/a5.jpg"
+        },
+        {
+          "slug": "a6",
+          "name": "A6",
+          "image": "/catalog/models/audi/a6.jpg"
+        },
+        {
+          "slug": "e5",
+          "name": "E5",
+          "image": "/catalog/models/audi/e5.jpg"
+        },
+        {
+          "slug": "e7x",
+          "name": "E7x",
+          "image": "/catalog/models/audi/e7x.jpg"
+        },
+        {
+          "slug": "q3",
+          "name": "Q3",
+          "image": "/catalog/models/audi/q3.jpeg"
+        },
+        {
+          "slug": "q4-e-tron",
+          "name": "Q4 E Tron",
+          "image": "/catalog/models/audi/q4-e-tron.jpg"
+        },
+        {
+          "slug": "q5",
+          "name": "Q5",
+          "image": "/catalog/models/audi/q5.jpg"
+        },
+        {
+          "slug": "q5l",
+          "name": "Q5l",
+          "image": "/catalog/models/audi/q5l.jpg"
+        },
+        {
+          "slug": "q6-e-tron",
+          "name": "Q6 E Tron",
+          "image": "/catalog/models/audi/q6-e-tron.jpg"
+        },
+        {
+          "slug": "q6l-e-tron",
+          "name": "Q6l E Tron",
+          "image": "/catalog/models/audi/q6l-e-tron.jpg"
+        },
+        {
+          "slug": "q7",
+          "name": "Q7",
+          "image": "/catalog/models/audi/q7.jpg"
+        },
+        {
+          "slug": "q8",
+          "name": "Q8",
+          "image": "/catalog/models/audi/q8.jpg"
+        },
+        {
+          "slug": "rs-q8",
+          "name": "RS Q8",
+          "image": "/catalog/models/audi/rs-q8.jpg"
+        },
+        {
+          "slug": "sq7",
+          "name": "Sq7",
+          "image": "/catalog/models/audi/sq7.jpg"
+        },
+        {
+          "slug": "sq8",
+          "name": "Sq8",
+          "image": "/catalog/models/audi/sq8.jpg"
+        }
+      ]
+    },
+    "avatr": {
+      "slug": "avatr",
+      "name": "Avatr",
+      "logo": null,
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "06",
+          "name": "06",
+          "image": "/catalog/models/avatr/06.jpg"
+        },
+        {
+          "slug": "07",
+          "name": "07",
+          "image": "/catalog/models/avatr/07.jpg"
+        },
+        {
+          "slug": "11",
+          "name": "11",
+          "image": "/catalog/models/avatr/11.jpg"
+        },
+        {
+          "slug": "12",
+          "name": "12",
+          "image": "/catalog/models/avatr/12.jpg"
+        }
+      ]
+    },
+    "baw": {
+      "slug": "baw",
+      "name": "BAW",
+      "logo": null,
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "212-t01",
+          "name": "212 T01",
+          "image": "/catalog/models/baw/212-t01.jpg"
+        }
+      ]
+    },
+    "belgee": {
+      "slug": "belgee",
+      "name": "Belgee",
+      "logo": null,
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "s50",
+          "name": "S50",
+          "image": "/catalog/models/belgee/s50.jpg"
+        },
+        {
+          "slug": "x50-plus",
+          "name": "X50 Plus",
+          "image": "/catalog/models/belgee/x50-plus.jpg"
+        },
+        {
+          "slug": "x70",
+          "name": "X70",
+          "image": "/catalog/models/belgee/x70.jpg"
+        },
+        {
+          "slug": "x80",
+          "name": "X80",
+          "image": "/catalog/models/belgee/x80.jpg"
+        }
+      ]
+    },
+    "bmg": {
+      "slug": "bmg",
+      "name": "BMG",
+      "logo": null,
+      "regions": [
+        "usa"
+      ],
+      "models": [
+        {
+          "slug": "m5",
+          "name": "M5",
+          "image": "/catalog/models/bmg/m5.jpg"
+        }
+      ]
+    },
+    "bmw": {
+      "slug": "bmw",
+      "name": "BMW",
+      "logo": "/catalog/makes/bmw.png",
+      "regions": [
+        "usa",
+        "korea",
+        "uk"
+      ],
+      "models": [
+        {
+          "slug": "5-seriya",
+          "name": "5 Series",
+          "image": "/catalog/models/bmw/5-seriya.jpg"
+        },
+        {
+          "slug": "i3",
+          "name": "I3",
+          "image": "/catalog/models/bmw/i3.jpg"
+        },
+        {
+          "slug": "i4",
+          "name": "I4",
+          "image": "/catalog/models/bmw/i4.jpg"
+        },
+        {
+          "slug": "i5",
+          "name": "I5",
+          "image": "/catalog/models/bmw/i5.jpg"
+        },
+        {
+          "slug": "i7",
+          "name": "I7",
+          "image": "/catalog/models/bmw/i7.jpg"
+        },
+        {
+          "slug": "ix1",
+          "name": "Ix1",
+          "image": "/catalog/models/bmw/ix1.jpg"
+        },
+        {
+          "slug": "ix3",
+          "name": "Ix3",
+          "image": "/catalog/models/bmw/ix3.jpg"
+        },
+        {
+          "slug": "x2",
+          "name": "X2",
+          "image": "/catalog/models/bmw/x2.jpg"
+        },
+        {
+          "slug": "x3",
+          "name": "X3",
+          "image": "/catalog/models/bmw/x3.jpg"
+        },
+        {
+          "slug": "x5",
+          "name": "X5",
+          "image": "/catalog/models/bmw/x5.jpg"
+        },
+        {
+          "slug": "x6",
+          "name": "X6",
+          "image": "/catalog/models/bmw/x6.jpg"
+        },
+        {
+          "slug": "x7",
+          "name": "X7",
+          "image": "/catalog/models/bmw/x7.jpg"
+        }
+      ]
+    },
+    "byd": {
+      "slug": "byd",
+      "name": "BYD",
+      "logo": "/catalog/makes/byd.png",
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "destroyer-05",
+          "name": "Destroyer 05",
+          "image": "/catalog/models/byd/destroyer-05.jpg"
+        },
+        {
+          "slug": "dolphin",
+          "name": "Dolphin",
+          "image": "/catalog/models/byd/dolphin.jpg"
+        },
+        {
+          "slug": "e7",
+          "name": "E7",
+          "image": "/catalog/models/byd/e7.jpg"
+        },
+        {
+          "slug": "han",
+          "name": "Han",
+          "image": "/catalog/models/byd/han.jpg"
+        },
+        {
+          "slug": "han-l",
+          "name": "Han L",
+          "image": "/catalog/models/byd/han-l.png"
+        },
+        {
+          "slug": "qin-plus-ev",
+          "name": "Qin Plus EV",
+          "image": "/catalog/models/byd/qin-plus-ev.jpg"
+        },
+        {
+          "slug": "sea-lion-05-ev",
+          "name": "Sea Lion 05 EV",
+          "image": "/catalog/models/byd/sea-lion-05-ev.jpg"
+        },
+        {
+          "slug": "sea-lion-06-ev",
+          "name": "Sea Lion 06 EV",
+          "image": "/catalog/models/byd/sea-lion-06-ev.jpg"
+        },
+        {
+          "slug": "sea-lion-07",
+          "name": "Sea Lion 07",
+          "image": "/catalog/models/byd/sea-lion-07.jpg"
+        },
+        {
+          "slug": "shark",
+          "name": "Shark",
+          "image": "/catalog/models/byd/shark.jpg"
+        },
+        {
+          "slug": "song-l",
+          "name": "Song L",
+          "image": "/catalog/models/byd/song-l.jpg"
+        },
+        {
+          "slug": "song-plus-ev",
+          "name": "Song Plus EV",
+          "image": "/catalog/models/byd/song-plus-ev.jpg"
+        },
+        {
+          "slug": "tang-l",
+          "name": "Tang L",
+          "image": "/catalog/models/byd/tang-l.jpg"
+        },
+        {
+          "slug": "yuan-plus",
+          "name": "Yuan Plus",
+          "image": "/catalog/models/byd/yuan-plus.jpg"
+        },
+        {
+          "slug": "yuan-up",
+          "name": "Yuan UP",
+          "image": "/catalog/models/byd/yuan-up.jpg"
+        }
+      ]
+    },
+    "cadillac": {
+      "slug": "cadillac",
+      "name": "Cadillac",
+      "logo": "/catalog/makes/cadillac.png",
+      "regions": [
+        "usa",
+        "korea"
+      ],
+      "models": [
+        {
+          "slug": "escalade",
+          "name": "Escalade",
+          "image": "/catalog/models/cadillac/escalade.jpg"
+        }
+      ]
+    },
+    "changan": {
+      "slug": "changan",
+      "name": "Changan",
+      "logo": "/catalog/makes/changan.png",
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "cs55-plus",
+          "name": "Cs55 Plus",
+          "image": "/catalog/models/changan/cs55-plus.jpg"
+        },
+        {
+          "slug": "cs75",
+          "name": "Cs75",
+          "image": "/catalog/models/changan/cs75.jpg"
+        },
+        {
+          "slug": "cs75-plus",
+          "name": "Cs75 Plus",
+          "image": "/catalog/models/changan/cs75-plus.jpg"
+        },
+        {
+          "slug": "cs75-pro",
+          "name": "Cs75 Pro",
+          "image": "/catalog/models/changan/cs75-pro.jpg"
+        },
+        {
+          "slug": "eado",
+          "name": "Eado",
+          "image": "/catalog/models/changan/eado.jpg"
+        },
+        {
+          "slug": "hunter",
+          "name": "Hunter",
+          "image": "/catalog/models/changan/hunter.jpg"
+        },
+        {
+          "slug": "kaicheng-v919",
+          "name": "Kaicheng V919",
+          "image": "/catalog/models/changan/kaicheng-v919.jpg"
+        },
+        {
+          "slug": "qiyuan-a05",
+          "name": "Qiyuan A05",
+          "image": "/catalog/models/changan/qiyuan-a05.jpg"
+        },
+        {
+          "slug": "qiyuan-a06",
+          "name": "Qiyuan A06",
+          "image": "/catalog/models/changan/qiyuan-a06.jpg"
+        },
+        {
+          "slug": "qiyuan-a07",
+          "name": "Qiyuan A07",
+          "image": "/catalog/models/changan/qiyuan-a07.jpg"
+        },
+        {
+          "slug": "qiyuan-q05",
+          "name": "Qiyuan Q05",
+          "image": "/catalog/models/changan/qiyuan-q05.jpg"
+        },
+        {
+          "slug": "qiyuan-q07",
+          "name": "Qiyuan Q07",
+          "image": "/catalog/models/changan/qiyuan-q07.jpg"
+        },
+        {
+          "slug": "uni-k",
+          "name": "Uni K",
+          "image": "/catalog/models/changan/uni-k.jpg"
+        },
+        {
+          "slug": "uni-s",
+          "name": "Uni S",
+          "image": "/catalog/models/changan/uni-s.jpg"
+        },
+        {
+          "slug": "uni-t",
+          "name": "Uni T",
+          "image": "/catalog/models/changan/uni-t.jpg"
+        },
+        {
+          "slug": "uni-z",
+          "name": "Uni Z",
+          "image": "/catalog/models/changan/uni-z.jpg"
+        },
+        {
+          "slug": "x5-plus",
+          "name": "X5 Plus",
+          "image": "/catalog/models/changan/x5-plus.jpg"
+        }
+      ]
+    },
+    "chevrolet": {
+      "slug": "chevrolet",
+      "name": "Chevrolet",
+      "logo": "/catalog/makes/chevrolet.png",
+      "regions": [
+        "usa",
+        "korea",
+        "uk"
+      ],
+      "models": [
+        {
+          "slug": "equinox",
+          "name": "Equinox",
+          "image": "/catalog/models/chevrolet/equinox.jpg"
+        }
+      ]
+    },
+    "citroen": {
+      "slug": "citroen",
+      "name": "Citroen",
+      "logo": "/catalog/makes/citroen.png",
+      "regions": [
+        "usa",
+        "uk"
+      ],
+      "models": [
+        {
+          "slug": "c3",
+          "name": "C3",
+          "image": "/catalog/models/citroen/c3.jpg"
+        },
+        {
+          "slug": "c5-aircross",
+          "name": "C5 Aircross",
+          "image": "/catalog/models/citroen/c5-aircross.jpg"
+        },
+        {
+          "slug": "c5-x",
+          "name": "C5 X",
+          "image": "/catalog/models/citroen/c5-x.jpg"
+        }
+      ]
+    },
+    "denza": {
+      "slug": "denza",
+      "name": "Denza",
+      "logo": null,
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "n8l",
+          "name": "N8l",
+          "image": "/catalog/models/denza/n8l.jpg"
+        }
+      ]
+    },
+    "dfsk": {
+      "slug": "dfsk",
+      "name": "DFSK",
+      "logo": null,
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "e5-plus",
+          "name": "E5 Plus",
+          "image": "/catalog/models/dfsk/e5-plus.jpg"
+        }
+      ]
+    },
+    "epai": {
+      "slug": "epai",
+      "name": "EPAI",
+      "logo": null,
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "epi-007",
+          "name": "Epi 007",
+          "image": "/catalog/models/epai/epi-007.jpg"
+        },
+        {
+          "slug": "epi-008",
+          "name": "Epi 008",
+          "image": "/catalog/models/epai/epi-008.jpg"
+        }
+      ]
+    },
+    "fangchengbao": {
+      "slug": "fangchengbao",
+      "name": "Fangchengbao",
+      "logo": null,
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "leopard-5",
+          "name": "Leopard 5",
+          "image": "/catalog/models/fangchengbao/leopard-5.jpg"
+        },
+        {
+          "slug": "leopard-8",
+          "name": "Leopard 8",
+          "image": "/catalog/models/fangchengbao/leopard-8.jpg"
+        },
+        {
+          "slug": "titanium-3",
+          "name": "Titanium 3",
+          "image": "/catalog/models/fangchengbao/titanium-3.png"
+        },
+        {
+          "slug": "titanium-7",
+          "name": "Titanium 7",
+          "image": "/catalog/models/fangchengbao/titanium-7.jpg"
+        }
+      ]
+    },
+    "farizon": {
+      "slug": "farizon",
+      "name": "Farizon",
+      "logo": null,
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "super-van",
+          "name": "Super Van",
+          "image": "/catalog/models/farizon/super-van.jpg"
+        },
+        {
+          "slug": "v6e",
+          "name": "V6e",
+          "image": "/catalog/models/farizon/v6e.jpg"
+        },
+        {
+          "slug": "v8e",
+          "name": "V8e",
+          "image": "/catalog/models/farizon/v8e.jpg"
+        }
+      ]
+    },
+    "faw": {
+      "slug": "faw",
+      "name": "FAW",
+      "logo": "/catalog/makes/faw.png",
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "bestune-joyee-03",
+          "name": "Bestune Joyee 03",
+          "image": "/catalog/models/faw/bestune-joyee-03.jpg"
+        },
+        {
+          "slug": "bestune-nat",
+          "name": "Bestune Nat",
+          "image": "/catalog/models/faw/bestune-nat.jpg"
+        },
+        {
+          "slug": "bestune-xiaoma",
+          "name": "Bestune Xiaoma",
+          "image": "/catalog/models/faw/bestune-xiaoma.jpg"
+        },
+        {
+          "slug": "joyee-s04",
+          "name": "Joyee S04",
+          "image": "/catalog/models/faw/joyee-s04.jpg"
+        }
+      ]
+    },
+    "ford": {
+      "slug": "ford",
+      "name": "Ford",
+      "logo": "/catalog/makes/ford.png",
+      "regions": [
+        "usa",
+        "korea",
+        "uk"
+      ],
+      "models": [
+        {
+          "slug": "bronco-sport",
+          "name": "Bronco Sport",
+          "image": "/catalog/models/ford/bronco-sport.jpg"
+        }
+      ]
+    },
+    "foton": {
+      "slug": "foton",
+      "name": "Foton",
+      "logo": "/catalog/makes/foton.png",
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "tunland-g7",
+          "name": "Tunland G7",
+          "image": "/catalog/models/foton/tunland-g7.jpg"
+        },
+        {
+          "slug": "tunland-v9",
+          "name": "Tunland V9",
+          "image": "/catalog/models/foton/tunland-v9.jpg"
+        }
+      ]
+    },
+    "gac": {
+      "slug": "gac",
+      "name": "GAC",
+      "logo": null,
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "aion-i60",
+          "name": "Aion I60",
+          "image": "/catalog/models/gac/aion-i60.jpg"
+        },
+        {
+          "slug": "aion-s",
+          "name": "Aion S",
+          "image": "/catalog/models/gac/aion-s.jpg"
+        },
+        {
+          "slug": "trumpchi-gs3",
+          "name": "Trumpchi Gs3",
+          "image": "/catalog/models/gac/trumpchi-gs3.jpg"
+        }
+      ]
+    },
+    "geely": {
+      "slug": "geely",
+      "name": "Geely",
+      "logo": "/catalog/makes/geely.png",
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "atlas",
+          "name": "Atlas",
+          "image": "/catalog/models/geely/atlas.jpg"
+        },
+        {
+          "slug": "binyue",
+          "name": "Binyue",
+          "image": "/catalog/models/geely/binyue.jpg"
+        },
+        {
+          "slug": "binyue-l",
+          "name": "Binyue L",
+          "image": "/catalog/models/geely/binyue-l.jpg"
+        },
+        {
+          "slug": "boyue-cool",
+          "name": "Boyue Cool",
+          "image": "/catalog/models/geely/boyue-cool.jpg"
+        },
+        {
+          "slug": "boyue-l",
+          "name": "Boyue L",
+          "image": "/catalog/models/geely/boyue-l.jpg"
+        },
+        {
+          "slug": "cityray",
+          "name": "Cityray",
+          "image": "/catalog/models/geely/cityray.jpg"
+        },
+        {
+          "slug": "coolray",
+          "name": "Coolray",
+          "image": "/catalog/models/geely/coolray.jpg"
+        },
+        {
+          "slug": "cowboy",
+          "name": "Cowboy",
+          "image": "/catalog/models/geely/cowboy.jpg"
+        },
+        {
+          "slug": "ex2",
+          "name": "Ex2",
+          "image": "/catalog/models/geely/ex2.jpg"
+        },
+        {
+          "slug": "ex5",
+          "name": "Ex5",
+          "image": "/catalog/models/geely/ex5.jpg"
+        },
+        {
+          "slug": "galaxy-a7",
+          "name": "Galaxy A7",
+          "image": "/catalog/models/geely/galaxy-a7.jpg"
+        },
+        {
+          "slug": "galaxy-e5",
+          "name": "Galaxy E5",
+          "image": "/catalog/models/geely/galaxy-e5.jpg"
+        },
+        {
+          "slug": "galaxy-l6",
+          "name": "Galaxy L6",
+          "image": "/catalog/models/geely/galaxy-l6.jpg"
+        },
+        {
+          "slug": "galaxy-m7",
+          "name": "Galaxy M7",
+          "image": "/catalog/models/geely/galaxy-m7.jpg"
+        },
+        {
+          "slug": "galaxy-m9",
+          "name": "Galaxy M9",
+          "image": "/catalog/models/geely/galaxy-m9.jpg"
+        },
+        {
+          "slug": "galaxy-starship-7",
+          "name": "Galaxy Starship 7",
+          "image": "/catalog/models/geely/galaxy-starship-7.jpg"
+        },
+        {
+          "slug": "haoyue-l",
+          "name": "Haoyue L",
+          "image": "/catalog/models/geely/haoyue-l.jpg"
+        },
+        {
+          "slug": "monjaro",
+          "name": "Monjaro",
+          "image": "/catalog/models/geely/monjaro.jpg"
+        },
+        {
+          "slug": "okavango",
+          "name": "Okavango",
+          "image": "/catalog/models/geely/okavango.jpg"
+        },
+        {
+          "slug": "star-wish",
+          "name": "Star Wish",
+          "image": "/catalog/models/geely/star-wish.jpg"
+        },
+        {
+          "slug": "xingyue-l",
+          "name": "Xingyue L",
+          "image": "/catalog/models/geely/xingyue-l.jpg"
+        }
+      ]
+    },
+    "genesis": {
+      "slug": "genesis",
+      "name": "Genesis",
+      "logo": "/catalog/makes/genesis.png",
+      "regions": [
+        "usa",
+        "korea"
+      ],
+      "models": [
+        {
+          "slug": "gv70",
+          "name": "Gv70",
+          "image": "/catalog/models/genesis/gv70.jpg"
+        }
+      ]
+    },
+    "haval": {
+      "slug": "haval",
+      "name": "Haval",
+      "logo": "/catalog/makes/haval.png",
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "dargo",
+          "name": "Dargo",
+          "image": "/catalog/models/haval/dargo.jpg"
+        },
+        {
+          "slug": "f7",
+          "name": "F7",
+          "image": "/catalog/models/haval/f7.jpg"
+        },
+        {
+          "slug": "f7x",
+          "name": "F7x",
+          "image": "/catalog/models/haval/f7x.jpg"
+        },
+        {
+          "slug": "jolion",
+          "name": "Jolion",
+          "image": "/catalog/models/haval/jolion.jpg"
+        }
+      ]
+    },
+    "honda": {
+      "slug": "honda",
+      "name": "Honda",
+      "logo": "/catalog/makes/honda.png",
+      "regions": [
+        "usa",
+        "korea",
+        "uk"
+      ],
+      "models": [
+        {
+          "slug": "ens1",
+          "name": "Ens1",
+          "image": "/catalog/models/honda/ens1.jpg"
+        },
+        {
+          "slug": "ye-s7",
+          "name": "YE S7",
+          "image": "/catalog/models/honda/ye-s7.jpg"
+        }
+      ]
+    },
+    "hongqi": {
+      "slug": "hongqi",
+      "name": "Hongqi",
+      "logo": "/catalog/makes/hongqi.png",
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "e-qm5",
+          "name": "E Qm5",
+          "image": "/catalog/models/hongqi/e-qm5.jpg"
+        }
+      ]
+    },
+    "hyundai": {
+      "slug": "hyundai",
+      "name": "Hyundai",
+      "logo": "/catalog/makes/hyundai.png",
+      "regions": [
+        "usa",
+        "korea",
+        "uk"
+      ],
+      "models": [
+        {
+          "slug": "elantra",
+          "name": "Elantra",
+          "image": "/catalog/models/hyundai/elantra.jpg"
+        },
+        {
+          "slug": "palisade",
+          "name": "Palisade",
+          "image": "/catalog/models/hyundai/palisade.jpg"
+        },
+        {
+          "slug": "santa-fe",
+          "name": "Santa FE",
+          "image": "/catalog/models/hyundai/santa-fe.jpg"
+        },
+        {
+          "slug": "sonata",
+          "name": "Sonata",
+          "image": "/catalog/models/hyundai/sonata.jpg"
+        },
+        {
+          "slug": "staria",
+          "name": "Staria",
+          "image": "/catalog/models/hyundai/staria.jpg"
+        },
+        {
+          "slug": "tucson",
+          "name": "Tucson",
+          "image": "/catalog/models/hyundai/tucson.jpg"
+        }
+      ]
+    },
+    "im-motors": {
+      "slug": "im-motors",
+      "name": "IM Motors",
+      "logo": null,
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "ls7",
+          "name": "Ls7",
+          "image": "/catalog/models/im-motors/ls7.jpg"
+        }
+      ]
+    },
+    "infiniti": {
+      "slug": "infiniti",
+      "name": "Infiniti",
+      "logo": "/catalog/makes/infiniti.png",
+      "regions": [
+        "usa",
+        "korea"
+      ],
+      "models": [
+        {
+          "slug": "qx80",
+          "name": "Qx80",
+          "image": "/catalog/models/infiniti/qx80.jpg"
+        }
+      ]
+    },
+    "iveco": {
+      "slug": "iveco",
+      "name": "IVECO",
+      "logo": "/catalog/makes/iveco.png",
+      "regions": [
+        "usa"
+      ],
+      "models": [
+        {
+          "slug": "fidato",
+          "name": "Fidato",
+          "image": "/catalog/models/iveco/fidato.jpg"
+        }
+      ]
+    },
+    "jac": {
+      "slug": "jac",
+      "name": "JAC",
+      "logo": "/catalog/makes/jac.png",
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "rf8",
+          "name": "Rf8",
+          "image": "/catalog/models/jac/rf8.jpg"
+        },
+        {
+          "slug": "t8-pro",
+          "name": "T8 Pro",
+          "image": "/catalog/models/jac/t8-pro.jpg"
+        },
+        {
+          "slug": "t9",
+          "name": "T9",
+          "image": "/catalog/models/jac/t9.jpg"
+        }
+      ]
+    },
+    "jetour": {
+      "slug": "jetour",
+      "name": "Jetour",
+      "logo": "/catalog/makes/jetour.png",
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "t2",
+          "name": "T2",
+          "image": "/catalog/models/jetour/t2.jpg"
+        }
+      ]
+    },
+    "jetta": {
+      "slug": "jetta",
+      "name": "Jetta",
+      "logo": "/catalog/makes/jetta.png",
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "vs5",
+          "name": "Vs5",
+          "image": "/catalog/models/jetta/vs5.jpg"
+        }
+      ]
+    },
+    "kia": {
+      "slug": "kia",
+      "name": "Kia",
+      "logo": "/catalog/makes/kia.png",
+      "regions": [
+        "usa",
+        "korea",
+        "uk"
+      ],
+      "models": [
+        {
+          "slug": "carnival",
+          "name": "Carnival",
+          "image": "/catalog/models/kia/carnival.jpg"
+        },
+        {
+          "slug": "ev5",
+          "name": "Ev5",
+          "image": "/catalog/models/kia/ev5.jpg"
+        },
+        {
+          "slug": "k3",
+          "name": "K3",
+          "image": "/catalog/models/kia/k3.jpg"
+        },
+        {
+          "slug": "kx1",
+          "name": "Kx1",
+          "image": "/catalog/models/kia/kx1.jpg"
+        },
+        {
+          "slug": "seltos",
+          "name": "Seltos",
+          "image": "/catalog/models/kia/seltos.jpg"
+        },
+        {
+          "slug": "sorento",
+          "name": "Sorento",
+          "image": "/catalog/models/kia/sorento.jpg"
+        },
+        {
+          "slug": "sportage",
+          "name": "Sportage",
+          "image": "/catalog/models/kia/sportage.jpg"
+        }
+      ]
+    },
+    "lamborghini": {
+      "slug": "lamborghini",
+      "name": "Lamborghini",
+      "logo": "/catalog/makes/lamborghini.png",
+      "regions": [
+        "usa"
+      ],
+      "models": [
+        {
+          "slug": "urus",
+          "name": "Urus",
+          "image": "/catalog/models/lamborghini/urus.jpg"
+        }
+      ]
+    },
+    "land-rover": {
+      "slug": "land-rover",
+      "name": "Land Rover",
+      "logo": "/catalog/makes/land-rover.png",
+      "regions": [
+        "uk"
+      ],
+      "models": [
+        {
+          "slug": "range-rover",
+          "name": "Range Rover",
+          "image": "/catalog/models/land-rover/range-rover.jpg"
+        },
+        {
+          "slug": "range-rover-sport",
+          "name": "Range Rover Sport",
+          "image": "/catalog/models/land-rover/range-rover-sport.jpg"
+        }
+      ]
+    },
+    "leapmotor": {
+      "slug": "leapmotor",
+      "name": "Leapmotor",
+      "logo": "/catalog/makes/leapmotor.png",
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "b01",
+          "name": "B01",
+          "image": "/catalog/models/leapmotor/b01.jpg"
+        },
+        {
+          "slug": "c10",
+          "name": "C10",
+          "image": "/catalog/models/leapmotor/c10.jpg"
+        },
+        {
+          "slug": "c16",
+          "name": "C16",
+          "image": "/catalog/models/leapmotor/c16.jpg"
+        },
+        {
+          "slug": "lafa-5",
+          "name": "Lafa 5",
+          "image": "/catalog/models/leapmotor/lafa-5.jpg"
+        }
+      ]
+    },
+    "li-auto": {
+      "slug": "li-auto",
+      "name": "Li Auto",
+      "logo": "/catalog/makes/li-auto.png",
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "i6",
+          "name": "I6",
+          "image": "/catalog/models/li-auto/i6.jpg"
+        },
+        {
+          "slug": "i8",
+          "name": "I8",
+          "image": "/catalog/models/li-auto/i8.jpg"
+        },
+        {
+          "slug": "l6",
+          "name": "L6",
+          "image": "/catalog/models/li-auto/l6.jpg"
+        },
+        {
+          "slug": "l7",
+          "name": "L7",
+          "image": "/catalog/models/li-auto/l7.jpg"
+        },
+        {
+          "slug": "l9",
+          "name": "L9",
+          "image": "/catalog/models/li-auto/l9.jpg"
+        }
+      ]
+    },
+    "lotus": {
+      "slug": "lotus",
+      "name": "Lotus",
+      "logo": "/catalog/makes/lotus.png",
+      "regions": [
+        "usa"
+      ],
+      "models": [
+        {
+          "slug": "eletre",
+          "name": "Eletre",
+          "image": "/catalog/models/lotus/eletre.jpg"
+        }
+      ]
+    },
+    "mazda": {
+      "slug": "mazda",
+      "name": "Mazda",
+      "logo": "/catalog/makes/mazda.png",
+      "regions": [
+        "usa",
+        "uk"
+      ],
+      "models": [
+        {
+          "slug": "cx-5",
+          "name": "CX 5",
+          "image": "/catalog/models/mazda/cx-5.jpg"
+        },
+        {
+          "slug": "cx-50",
+          "name": "CX 50",
+          "image": "/catalog/models/mazda/cx-50.jpg"
+        },
+        {
+          "slug": "ez-6",
+          "name": "EZ 6",
+          "image": "/catalog/models/mazda/ez-6.jpg"
+        },
+        {
+          "slug": "ez-60",
+          "name": "EZ 60",
+          "image": "/catalog/models/mazda/ez-60.jpg"
+        }
+      ]
+    },
+    "mercedes-benz": {
+      "slug": "mercedes-benz",
+      "name": "Mercedes-Benz",
+      "logo": "/catalog/makes/mercedes-benz.png",
+      "regions": [
+        "usa",
+        "korea",
+        "uk"
+      ],
+      "models": [
+        {
+          "slug": "cla",
+          "name": "Cla",
+          "image": "/catalog/models/mercedes-benz/cla.jpg"
+        },
+        {
+          "slug": "eqa",
+          "name": "Eqa",
+          "image": "/catalog/models/mercedes-benz/eqa.jpg"
+        },
+        {
+          "slug": "eqb",
+          "name": "Eqb",
+          "image": "/catalog/models/mercedes-benz/eqb.jpg"
+        },
+        {
+          "slug": "eqe",
+          "name": "Eqe",
+          "image": "/catalog/models/mercedes-benz/eqe.jpg"
+        },
+        {
+          "slug": "eqe-suv",
+          "name": "Eqe Suv",
+          "image": "/catalog/models/mercedes-benz/eqe-suv.jpg"
+        },
+        {
+          "slug": "g-klass",
+          "name": "G Klass",
+          "image": "/catalog/models/mercedes-benz/g-klass.jpg"
+        },
+        {
+          "slug": "g-klass-amg",
+          "name": "G Klass Amg",
+          "image": "/catalog/models/mercedes-benz/g-klass-amg.jpg"
+        },
+        {
+          "slug": "gle-coupe",
+          "name": "Gle Coupe",
+          "image": "/catalog/models/mercedes-benz/gle-coupe.jpg"
+        },
+        {
+          "slug": "gle-coupe-amg",
+          "name": "Gle Coupe Amg",
+          "image": "/catalog/models/mercedes-benz/gle-coupe-amg.jpg"
+        },
+        {
+          "slug": "gls",
+          "name": "Gls",
+          "image": "/catalog/models/mercedes-benz/gls.jpg"
+        },
+        {
+          "slug": "s-klass",
+          "name": "S Klass",
+          "image": "/catalog/models/mercedes-benz/s-klass.jpg"
+        },
+        {
+          "slug": "v-klass",
+          "name": "V Klass",
+          "image": "/catalog/models/mercedes-benz/v-klass.jpg"
+        }
+      ]
+    },
+    "mg": {
+      "slug": "mg",
+      "name": "MG",
+      "logo": "/catalog/makes/mg.png",
+      "regions": [
+        "usa",
+        "uk"
+      ],
+      "models": [
+        {
+          "slug": "5",
+          "name": "5",
+          "image": "/catalog/models/mg/5.jpg"
+        }
+      ]
+    },
+    "mhero": {
+      "slug": "mhero",
+      "name": "M-Hero",
+      "logo": null,
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "817",
+          "name": "817",
+          "image": "/catalog/models/mhero/817.jpg"
+        },
+        {
+          "slug": "917",
+          "name": "917",
+          "image": "/catalog/models/mhero/917.jpg"
+        }
+      ]
+    },
+    "nissan": {
+      "slug": "nissan",
+      "name": "Nissan",
+      "logo": "/catalog/makes/nissan.png",
+      "regions": [
+        "usa",
+        "korea",
+        "uk"
+      ],
+      "models": [
+        {
+          "slug": "n7",
+          "name": "N7",
+          "image": "/catalog/models/nissan/n7.jpg"
+        },
+        {
+          "slug": "nx8",
+          "name": "Nx8",
+          "image": "/catalog/models/nissan/nx8.jpg"
+        },
+        {
+          "slug": "qashqai",
+          "name": "Qashqai",
+          "image": "/catalog/models/nissan/qashqai.jpg"
+        },
+        {
+          "slug": "x-trail",
+          "name": "X Trail",
+          "image": "/catalog/models/nissan/x-trail.jpg"
+        }
+      ]
+    },
+    "opel": {
+      "slug": "opel",
+      "name": "Opel",
+      "logo": "/catalog/makes/opel.png",
+      "regions": [
+        "usa",
+        "uk"
+      ],
+      "models": [
+        {
+          "slug": "combo",
+          "name": "Combo",
+          "image": "/catalog/models/opel/combo.jpg"
+        },
+        {
+          "slug": "zafira-life",
+          "name": "Zafira Life",
+          "image": "/catalog/models/opel/zafira-life.jpg"
+        }
+      ]
+    },
+    "peugeot": {
+      "slug": "peugeot",
+      "name": "Peugeot",
+      "logo": "/catalog/makes/peugeot.png",
+      "regions": [
+        "usa",
+        "uk"
+      ],
+      "models": [
+        {
+          "slug": "partner",
+          "name": "Partner",
+          "image": "/catalog/models/peugeot/partner.jpg"
+        },
+        {
+          "slug": "traveller",
+          "name": "Traveller",
+          "image": "/catalog/models/peugeot/traveller.jpg"
+        }
+      ]
+    },
+    "polestar": {
+      "slug": "polestar",
+      "name": "Polestar",
+      "logo": "/catalog/makes/polestar.png",
+      "regions": [
+        "usa",
+        "korea"
+      ],
+      "models": [
+        {
+          "slug": "4",
+          "name": "4",
+          "image": "/catalog/models/polestar/4.jpg"
+        }
+      ]
+    },
+    "ram": {
+      "slug": "ram",
+      "name": "Ram",
+      "logo": "/catalog/makes/ram.png",
+      "regions": [
+        "usa"
+      ],
+      "models": [
+        {
+          "slug": "1500",
+          "name": "1500",
+          "image": "/catalog/models/ram/1500.jpg"
+        }
+      ]
+    },
+    "rolls-royce": {
+      "slug": "rolls-royce",
+      "name": "Rolls Royce",
+      "logo": "/catalog/makes/rolls-royce.png",
+      "regions": [
+        "usa"
+      ],
+      "models": [
+        {
+          "slug": "cullinan",
+          "name": "Cullinan",
+          "image": "/catalog/models/rolls-royce/cullinan.jpg"
+        }
+      ]
+    },
+    "rox": {
+      "slug": "rox",
+      "name": "ROX",
+      "logo": null,
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "01",
+          "name": "01",
+          "image": "/catalog/models/rox/01.jpg"
+        }
+      ]
+    },
+    "seres": {
+      "slug": "seres",
+      "name": "Seres",
+      "logo": null,
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "5",
+          "name": "5",
+          "image": "/catalog/models/seres/5.jpg"
+        }
+      ]
+    },
+    "shenlan": {
+      "slug": "shenlan",
+      "name": "Shenlan",
+      "logo": null,
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "g318",
+          "name": "G318",
+          "image": "/catalog/models/shenlan/g318.jpg"
+        },
+        {
+          "slug": "l07",
+          "name": "L07",
+          "image": "/catalog/models/shenlan/l07.jpg"
+        },
+        {
+          "slug": "s05",
+          "name": "S05",
+          "image": "/catalog/models/shenlan/s05.jpg"
+        },
+        {
+          "slug": "s07-s7",
+          "name": "S07 S7",
+          "image": "/catalog/models/shenlan/s07-s7.jpg"
+        },
+        {
+          "slug": "s09",
+          "name": "S09",
+          "image": "/catalog/models/shenlan/s09.jpg"
+        },
+        {
+          "slug": "sl03",
+          "name": "Sl03",
+          "image": "/catalog/models/shenlan/sl03.jpg"
+        }
+      ]
+    },
+    "shineray": {
+      "slug": "shineray",
+      "name": "Shineray",
+      "logo": null,
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "m7",
+          "name": "M7",
+          "image": "/catalog/models/shineray/m7.jpg"
+        }
+      ]
+    },
+    "tank": {
+      "slug": "tank",
+      "name": "Tank",
+      "logo": null,
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "500",
+          "name": "500",
+          "image": "/catalog/models/tank/500.jpg"
+        }
+      ]
+    },
+    "tesla": {
+      "slug": "tesla",
+      "name": "Tesla",
+      "logo": "/catalog/makes/tesla.png",
+      "regions": [
+        "usa",
+        "korea"
+      ],
+      "models": [
+        {
+          "slug": "model-y",
+          "name": "Model Y",
+          "image": "/catalog/models/tesla/model-y.jpg"
+        }
+      ]
+    },
+    "toyota": {
+      "slug": "toyota",
+      "name": "Toyota",
+      "logo": "/catalog/makes/toyota.png",
+      "regions": [
+        "usa",
+        "korea",
+        "uk"
+      ],
+      "models": [
+        {
+          "slug": "bz3x",
+          "name": "bZ3X",
+          "image": "/catalog/models/toyota/bz3x.jpg"
+        },
+        {
+          "slug": "camry",
+          "name": "Camry",
+          "image": "/catalog/models/toyota/camry.jpg"
+        },
+        {
+          "slug": "corolla",
+          "name": "Corolla",
+          "image": "/catalog/models/toyota/corolla.jpg"
+        },
+        {
+          "slug": "corolla-cross",
+          "name": "Corolla Cross",
+          "image": "/catalog/models/toyota/corolla-cross.jpg"
+        },
+        {
+          "slug": "highlander",
+          "name": "Highlander",
+          "image": "/catalog/models/toyota/highlander.jpg"
+        },
+        {
+          "slug": "land-cruiser-prado",
+          "name": "Land Cruiser Prado",
+          "image": "/catalog/models/toyota/land-cruiser-prado.jpg"
+        },
+        {
+          "slug": "rav4",
+          "name": "Rav4",
+          "image": "/catalog/models/toyota/rav4.jpg"
+        },
+        {
+          "slug": "sequoia",
+          "name": "Sequoia",
+          "image": "/catalog/models/toyota/sequoia.jpg"
+        }
+      ]
+    },
+    "volkswagen": {
+      "slug": "volkswagen",
+      "name": "Volkswagen",
+      "logo": "/catalog/makes/volkswagen.png",
+      "regions": [
+        "usa",
+        "korea",
+        "uk"
+      ],
+      "models": [
+        {
+          "slug": "caddy-maxi",
+          "name": "Caddy Maxi",
+          "image": "/catalog/models/volkswagen/caddy-maxi.jpg"
+        },
+        {
+          "slug": "id-unyx",
+          "name": "ID Unyx",
+          "image": "/catalog/models/volkswagen/id-unyx.jpg"
+        },
+        {
+          "slug": "t-roc",
+          "name": "T Roc",
+          "image": "/catalog/models/volkswagen/t-roc.jpg"
+        },
+        {
+          "slug": "tharu",
+          "name": "Tharu",
+          "image": "/catalog/models/volkswagen/tharu.jpg"
+        },
+        {
+          "slug": "touareg",
+          "name": "Touareg",
+          "image": "/catalog/models/volkswagen/touareg.jpg"
+        }
+      ]
+    },
+    "volvo": {
+      "slug": "volvo",
+      "name": "Volvo",
+      "logo": "/catalog/makes/volvo.png",
+      "regions": [
+        "usa",
+        "uk"
+      ],
+      "models": [
+        {
+          "slug": "xc60",
+          "name": "Xc60",
+          "image": "/catalog/models/volvo/xc60.jpg"
+        },
+        {
+          "slug": "xc90",
+          "name": "Xc90",
+          "image": "/catalog/models/volvo/xc90.jpg"
+        }
+      ]
+    },
+    "voyah": {
+      "slug": "voyah",
+      "name": "Voyah",
+      "logo": null,
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "courage",
+          "name": "Courage",
+          "image": "/catalog/models/voyah/courage.jpg"
+        },
+        {
+          "slug": "dream",
+          "name": "Dream",
+          "image": "/catalog/models/voyah/dream.jpg"
+        },
+        {
+          "slug": "epi-007",
+          "name": "Epi 007",
+          "image": "/catalog/models/voyah/epi-007.jpg"
+        },
+        {
+          "slug": "free",
+          "name": "Free",
+          "image": "/catalog/models/voyah/free.jpg"
+        },
+        {
+          "slug": "passion",
+          "name": "Passion",
+          "image": "/catalog/models/voyah/passion.jpg"
+        }
+      ]
+    },
+    "wuling": {
+      "slug": "wuling",
+      "name": "Wuling",
+      "logo": "/catalog/makes/wuling.png",
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "yangguang",
+          "name": "Yangguang",
+          "image": "/catalog/models/wuling/yangguang.jpg"
+        }
+      ]
+    },
+    "xiaomi": {
+      "slug": "xiaomi",
+      "name": "Xiaomi",
+      "logo": "/catalog/makes/xiaomi.svg",
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "su7",
+          "name": "Su7",
+          "image": "/catalog/models/xiaomi/su7.jpg"
+        },
+        {
+          "slug": "su7-ultra",
+          "name": "Su7 Ultra",
+          "image": "/catalog/models/xiaomi/su7-ultra.jpg"
+        },
+        {
+          "slug": "yu7",
+          "name": "Yu7",
+          "image": "/catalog/models/xiaomi/yu7.jpg"
+        }
+      ]
+    },
+    "xpeng": {
+      "slug": "xpeng",
+      "name": "XPENG",
+      "logo": "/catalog/makes/xpeng.png",
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "g6",
+          "name": "G6",
+          "image": "/catalog/models/xpeng/g6.jpg"
+        },
+        {
+          "slug": "g7",
+          "name": "G7",
+          "image": "/catalog/models/xpeng/g7.jpg"
+        },
+        {
+          "slug": "g9",
+          "name": "G9",
+          "image": "/catalog/models/xpeng/g9.jpg"
+        },
+        {
+          "slug": "gx",
+          "name": "GX",
+          "image": "/catalog/models/xpeng/gx.jpg"
+        },
+        {
+          "slug": "mona-m03",
+          "name": "Mona M03",
+          "image": "/catalog/models/xpeng/mona-m03.jpg"
+        },
+        {
+          "slug": "p7",
+          "name": "P7",
+          "image": "/catalog/models/xpeng/p7.jpg"
+        },
+        {
+          "slug": "x9",
+          "name": "X9",
+          "image": "/catalog/models/xpeng/x9.jpg"
+        }
+      ]
+    },
+    "zeekr": {
+      "slug": "zeekr",
+      "name": "Zeekr",
+      "logo": "/catalog/makes/zeekr.png",
+      "regions": [
+        "china"
+      ],
+      "models": [
+        {
+          "slug": "001",
+          "name": "001",
+          "image": "/catalog/models/zeekr/001.jpg"
+        },
+        {
+          "slug": "007-gt",
+          "name": "007 GT",
+          "image": "/catalog/models/zeekr/007-gt.jpg"
+        },
+        {
+          "slug": "7x",
+          "name": "7X",
+          "image": "/catalog/models/zeekr/7x.jpg"
+        },
+        {
+          "slug": "8x",
+          "name": "8X",
+          "image": "/catalog/models/zeekr/8x.jpg"
+        },
+        {
+          "slug": "9x",
+          "name": "9X",
+          "image": "/catalog/models/zeekr/9x.jpg"
+        },
+        {
+          "slug": "x",
+          "name": "X",
+          "image": "/catalog/models/zeekr/x.jpg"
+        }
+      ]
+    }
+  }
+}
