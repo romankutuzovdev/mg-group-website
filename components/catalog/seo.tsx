@@ -14,7 +14,7 @@ export function CatalogSEO({ title, description, path, image }: Props) {
     ? image.startsWith("http")
       ? image
       : absoluteUrl(image)
-    : absoluteUrl("/logo.png");
+    : absoluteUrl("/og-image.png");
 
   return (
     <Head>

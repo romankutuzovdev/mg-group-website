@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import type { Dictionary } from '@/lib/dictionary';
+import { absoluteUrl, SITE_ORIGIN } from '@/lib/catalog';
 
 interface SEOProps {
   dictionary: Dictionary;
@@ -8,6 +9,9 @@ interface SEOProps {
 
 const SEO = ({ dictionary, lang }: SEOProps) => {
   const { metadata } = dictionary;
+  const ogImage = metadata.ogImage.startsWith('http')
+    ? metadata.ogImage
+    : absoluteUrl(metadata.ogImage);
 
   return (
     <Head>
@@ -17,24 +21,31 @@ const SEO = ({ dictionary, lang }: SEOProps) => {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta charSet="utf-8" />
 
-      {/* Open Graph */}
+      {/* Open Graph — absolute image URL required for Telegram / messengers */}
       <meta property="og:title" content={metadata.title} />
       <meta property="og:description" content={metadata.description} />
-      <meta property="og:image" content={metadata.ogImage} />
+      <meta property="og:image" content={ogImage} />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+      <meta property="og:image:alt" content="MG GROUP" />
+      <meta property="og:url" content={SITE_ORIGIN + '/'} />
+      <meta property="og:site_name" content="MG GROUP" />
       <meta property="og:type" content="website" />
-      <meta property="og:locale" content={lang} />
+      <meta property="og:locale" content="ru_RU" />
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={metadata.title} />
       <meta name="twitter:description" content={metadata.description} />
-      <meta name="twitter:image" content={metadata.ogImage} />
+      <meta name="twitter:image" content={ogImage} />
 
-      <link rel="canonical" href="https://www.multiglobalgroup.com/" />
+      <link rel="canonical" href={SITE_ORIGIN + '/'} />
 
-      {/* Preconnect to external domains */}
       <link rel="preconnect" href="https://images.unsplash.com" />
-      <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+      <link rel="icon" href="/favicon.ico" sizes="any" />
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     </Head>
   );
 }
